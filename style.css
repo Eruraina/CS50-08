@@ -445,11 +445,15 @@ main {
 
 @media (max-width: 500px) {
 
+    .header {
+        padding: 1em 2rem;
+    }
+
     .mobile-nav-toggle {
         position: absolute;
         z-index: 99999;
         top: 1.5rem;
-        right: 5rem;
+        right: 2rem;
         display: block;
         width: 2.5rem;
         padding: .5em;
