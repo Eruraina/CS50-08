@@ -300,7 +300,7 @@ main {
 .card-modal__close {
     position: sticky;
     left: .5em;
-    top: .1em;
+    top: .5em;
     height: 3.2em;
     width: 3.2em;
     padding: .4em 0 .5em .1em;
@@ -321,6 +321,7 @@ main {
 }
 
 .card-modal__box {
+    margin-top: -3.2em;
     padding: 5em;
 }
 
@@ -515,6 +516,11 @@ main {
         padding: 5rem 2rem;
     }
 
+    .books-quote,
+    .main__text {
+        max-width: 70%;
+    }
+
     .card__info {
         padding: .5em;
     }
@@ -525,6 +531,10 @@ main {
 
     .card__link {
         padding: .5em;
+    }
+
+    .card-modal {
+        inset: 1em;
     }
 
     .card-modal__header {
